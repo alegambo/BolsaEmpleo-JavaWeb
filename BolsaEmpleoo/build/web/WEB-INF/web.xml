@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+    <display-name>jspServletJdbcExemple</display-name>
+    <welcome-file-list>
+        <welcome-file>ListaPuestos_1.jsp</welcome-file>
+    </welcome-file-list>
+     <servlet>
+        <servlet-name>Empresa_has_CaracteristicaServices</servlet-name>
+        <servlet-class>bolsa.services.Empresa_has_CaracteristicaServices</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>Caracteristica_has_OferenteServices1</servlet-name>
+        <servlet-class>bolsa.services.Caracteristica_has_OferenteServices1</servlet-class>
+    </servlet>
+    
+    
+      <servlet>
+        <servlet-name>Caracteristica_has_OferenteServices</servlet-name>
+        <servlet-class>bolsa.services.Caracteristica_has_OferenteServices</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CaracteristicaServices1</servlet-name>
+        <servlet-class>bolsa.services.CaracteristicaServices1</servlet-class>
+    </servlet>
+    
+    
+    <servlet>
+        <servlet-name>CaracteristicaServices</servlet-name>
+        <servlet-class>bolsa.services.CaracteristicaServices</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>PuestoServices1</servlet-name>
+        <servlet-class>bolsa.services.PuestoServices1</servlet-class>
+    </servlet>
+    
+     <servlet>
+        <servlet-name>PuestoServices</servlet-name>
+        <servlet-class>bolsa.services.PuestoServices</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>EmpresaServices1</servlet-name>
+        <servlet-class>bolsa.services.EmpresaServices1</servlet-class>
+    </servlet>
+    
+    
+    <servlet>
+        <servlet-name>EmpresaServices</servlet-name>
+        <servlet-class>bolsa.services.EmpresaServices</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>UsuarioServices1</servlet-name>
+        <servlet-class>bolsa.services.UsuarioServices1</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>UsuarioServices</servlet-name>
+        <servlet-class>bolsa.services.UsuarioServices</servlet-class>
+    </servlet>
+    
+     <servlet>
+        <servlet-name>OferenteServices1</servlet-name>
+        <servlet-class>bolsa.services.OferenteServices1</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>OferenteServices</servlet-name>
+        <servlet-class>bolsa.services.OferenteServices</servlet-class>
+    </servlet>
+    
+    
+    
+    <servlet-mapping>
+        <servlet-name>Empresa_has_CaracteristicaServices</servlet-name>
+        <url-pattern>/Empresa_has_CaracteristicaServices</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>Caracteristica_has_OferenteServices1</servlet-name>
+        <url-pattern>/Caracteristica_has_OferenteServices1</url-pattern>
+    </servlet-mapping>
+    
+     <servlet-mapping>
+        <servlet-name>Caracteristica_has_OferenteServices</servlet-name>
+        <url-pattern>/Caracteristica_has_OferenteServices</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>CaracteristicaServices1</servlet-name>
+        <url-pattern>/CaracteristicaServices1</url-pattern>
+    </servlet-mapping>
+    
+     <servlet-mapping>
+        <servlet-name>CaracteristicaServices</servlet-name>
+        <url-pattern>/CaracteristicaServices</url-pattern>
+    </servlet-mapping>
+   
+   <servlet-mapping>
+        <servlet-name>PuestoServices1</servlet-name>
+        <url-pattern>/PuestoServices1</url-pattern>
+    </servlet-mapping>
+   
+     <servlet-mapping>
+        <servlet-name>PuestoServices</servlet-name>
+        <url-pattern>/PuestoServices</url-pattern>
+    </servlet-mapping>
+    
+     <servlet-mapping>
+        <servlet-name>EmpresaServices1</servlet-name>
+        <url-pattern>/EmpresaServices1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>EmpresaServices</servlet-name>
+        <url-pattern>/EmpresaServices</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>OferenteServices1</servlet-name>
+        <url-pattern>/OferenteServices1</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping>
+        <servlet-name>OferenteServices</servlet-name>
+        <url-pattern>/OferenteServices</url-pattern>
+    </servlet-mapping>
+    
+     <servlet-mapping>
+        <servlet-name>UsuarioServices1</servlet-name>
+        <url-pattern>/UsuarioServices1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>UsuarioServices</servlet-name>
+        <url-pattern>/UsuarioServices</url-pattern>
+    </servlet-mapping>
+</web-app>
